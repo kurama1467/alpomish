@@ -1,0 +1,455 @@
+@media screen and (max-width:1400px) {
+    .first-piece{
+        height: 830px;
+    }
+
+    .btn-top{
+        z-index: 3124;
+    }
+}
+
+
+@media screen and (max-width:1100px) {
+
+    .fifth-piece .bottom{
+        flex-wrap: wrap;
+    }
+
+    .first-piece{
+        height: auto;
+        padding-bottom: 30px;
+    }
+
+    .open h1{
+        font-size: 50px;
+    }
+
+    .second-piece{
+        flex-direction: column;
+        height: auto;
+        padding-bottom: 40px;
+    }
+
+    .third-piece{
+        height: auto;
+        padding-bottom: 50px;
+    }
+
+    .third-piece .bottom{
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .fifth-piece{
+        height: auto;
+        padding-bottom: 29px;
+    }
+
+    .fifth-piece .bottom{
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    .before-footer{
+        padding: 20px;
+    }
+
+    .before-footer h3::before{
+        left: 270px;
+    }
+    
+    .pre-footer{
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .pre-mid h3::before{
+        left: 320px;
+        top: 12px;
+    }
+}
+
+@media screen and (max-width:980px) {
+    
+    .first-piece .menu,.dnone{
+        display: none !important;   
+    }
+
+    .first-piece h1{
+        font-size: 45px;
+    }
+
+    .after-mid ul{
+        flex-wrap: wrap;
+    }
+
+    .before-footer h3{
+        margin: 0;
+    }
+
+    .before-footer h3::before{
+        display: none;
+    }
+
+    .pre-mid h3::before{
+        display: none;
+    }
+
+    .pre-mid h3{
+        margin: 0;
+    }
+
+    .fourth-piece{
+        height: auto;
+        padding-bottom: 30px;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .fourth-piece .left{
+        width: 100%;
+        padding: 20px;
+    }
+
+    .fourth-piece .right{
+        width: 100%;
+    }
+
+    .fifth-piece{
+        height: auto;
+        padding-bottom: 20px;
+    }
+
+    .fifth-piece .bottom{
+        flex-wrap: wrap;
+    }
+
+    .fifth-piece .top{
+        padding: 20px;
+        text-align: center;
+    }
+
+    .fifth-piece .top .text{
+        margin: 50px;
+        width: 100%;
+    }
+
+    .pre-mid h3::before {
+        display: none;
+    }
+
+    .fifth-piece .top h3::before {
+        display: none;
+    }
+
+    .fourth-piece .right h3::before {
+       display: none;
+    }
+
+    .third-piece .text{
+        width: 100%;
+        text-align: center;
+    }
+
+    .third-piece .top{
+        width: 100%;
+        padding: 20px;
+        justify-content: center;
+    }
+
+    .third-piece .top h3::before {
+        position: absolute;
+        content: '';
+        left: 50px;
+        top: 12px;
+        width: 60px;
+        height: 3px;
+        background-color: orangered;
+    }
+
+    footer{
+        height: 1200px;
+        flex-wrap: wrap;
+        gap: 50px;
+    }
+}
+
+@media screen and (max-width:700px) {
+
+    .fifth-piece{
+        height: auto;
+    }
+    .second-piece{
+        width: 100%;
+        height: auto;
+    }
+
+    .fifth-piece .bottom .card{
+        width: 380px;
+    }
+
+    .second-piece .left{
+        width: 100%;
+        padding: 20px;
+    }
+
+    .second-piece .right{
+        width: 100%;
+        padding: 20px;
+        flex-direction: column;
+    }
+
+    h3::before{
+        display: none;
+    }
+
+    .third-piece .top h3{
+        margin-left: 0px;
+    }
+
+    .fourth-piece h3{
+        margin-left: 0px;
+    }
+
+    .fifth-piece .top h3{
+        margin-left: 0px;
+    }
+
+    .open{
+        width: 100%;
+        padding: 140px 30px;
+    }
+
+    .third-piece{
+        height: auto;
+    }
+
+    .third-piece .top{
+        flex-direction: column;
+        margin-bottom: 30px;
+    }
+
+    .mid{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        padding-bottom: 30px;
+    }
+
+    .mini-cards{
+        flex-wrap: wrap
+    }
+
+    .after-mid{
+        height: auto;
+    }
+
+    .open h3::before{
+        display: inline-block;
+        top: 7px;
+    }
+
+    .fifth-piece .top{
+        flex-direction: column;
+
+    }
+
+    .pre-footer{
+        display: none;
+    }
+
+    .second-piece .left .tatu{
+        width: 400px;
+    }
+
+    .second-piece .right h5{
+        width: auto;
+    }
+    .third-piece h1{
+        font-size: 32px;
+    }
+    .fourth-piece .right{
+        padding: 0;
+    }
+
+    .third-piece .bottom .card{
+        width: 380px;
+    }
+}
+
+@media screen and (max-width:400px) {
+
+    footer{
+        height: auto;
+    }
+
+    .first-piece header{
+        padding: 20px 10px;
+    }
+
+    .open{
+        padding: 40px;
+    }
+
+    .second-piece{
+        height: auto;
+    }
+
+    .second-piece .left .tatu{
+        width: 320px;
+    }
+
+    .second-piece .left{
+        width: 100%;
+    }
+
+    .second-piece .right{
+        width: 100%;
+    }
+
+
+    .second-piece h3{
+        margin-left: 0px;
+    }
+
+    .third-piece .bottom .card{
+        width: 320px;
+    }
+
+    .fifth-piece .bottom .card{
+        width: 320px;
+    }    
+
+    .fifth-piece{
+        height: auto;
+    }
+
+    .fifth-piece .top{
+        flex-direction: column;
+    }
+
+    .after-mid ul{
+        gap: 20px;
+    }
+
+    .mini-cards{
+        height: auto;
+    }
+
+    .before-footer{
+        height: auto;
+    }
+
+    .after-mid .mini-cards{
+        margin-top: 50px;
+        border-top: 3px orangered dashed;
+        padding: 30px 0;
+    }
+
+    .before-footer{
+        margin: 20px auto
+    }
+
+    .before-footer h1{
+        font-size: 34px;
+    }
+
+    .mid{
+        padding: 20px;
+        margin: 50px auto;
+    }
+
+    .mid h1{
+        font-size: 35px;
+    }
+}
+
+@media screen and (max-width:360px) {
+
+    .logo-img{
+        width: 110px;
+    }
+
+    .open h3{
+        font-size: 16px
+    } 
+
+    h3::before{
+        top: 9px;
+    }
+
+    .second-piece .left .tatu{
+        width: 280px;
+    }
+
+    .second-piece h1{
+        font-size: 35px;
+    }
+
+    .second-piece{
+        padding: 20px;
+    }
+
+    .second-piece .right{
+        padding: 20px;
+        width: 100%;
+    }
+
+    .third-piece .top .text{
+        width: 100%;
+    }
+
+    .third-piece .bottom .card{
+        width: 260px;
+    }
+
+    .fourth-piece{
+        height: auto;
+        padding: 20px;
+    }
+
+    .fourth-piece .right{
+        width: 100%;
+        padding: 20px;
+    }
+
+    .fourth-piece h1{
+        font-size: 35px;
+    }
+
+    .fourth-piece .left img{
+        width: 300px;
+    }
+
+    .fifth-piece .bottom .card{
+        width: 270px;
+    }
+
+    .mid h1{
+        font-size: 35px;
+    }
+
+    .mid .btn{
+        font-size: 15px;
+        padding: 20px 30px;
+    }
+
+    .pre-mid{
+        height: auto;
+        border-bottom: 3px orangered dashed;
+    }
+
+    .pre-mid h1{
+        font-size: 35px;
+    }
+
+    .before-footer{
+        border-top: 3px dashed orangered;
+        margin-top: 40px
+    }
+
+    footer{
+        height: auto;
+        padding: 30px;
+    }
+}
